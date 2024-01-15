@@ -1,0 +1,20 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    font-family: "Inter", sans-serif;
+}
+
+body {
+    @apply text-[#E4E4E4] bg-gradient-to-b from-[#2c1e52] to-[#0D0427] min-h-screen relative;
+}
+
+h1 {
+    @apply text-[#E4E4E4] tracking-[-0.9px]  lg:leading-[47px] text-3xl lg:text-[2.8125rem] font-medium;
+}
+
+h2 {
+    @apply text-[2.125rem];
+}
